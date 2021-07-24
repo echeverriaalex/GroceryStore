@@ -20,7 +20,7 @@ class Producto{
     }
 }
 
-var producto1 = new Producto("https://greenshop.com.ar/wp-content/uploads/sites/9/2016/08/A.2.6-500GR.jpg","Banana", "banana ecuador", 60);
+var producto1 = new Producto("https://www.suat.com.uy/upcms/thumbs/648x365/novedades/imagen/955_big.jpg","Banana", "banana ecuador", 60);
 var producto2 = new Producto("https://img.huffingtonpost.com/asset/5ef9ffab250000a502c28ec2.jpeg?ops=scalefit_720_noupscale&format=webp", "Manzana", "manzana deliciosa", 90);
 var producto3 = new Producto("https://static9.depositphotos.com/1642482/1148/i/600/depositphotos_11489464-stock-photo-pears.jpg", "Pera", "pera especial", 100);
 var producto4 = new Producto("https://cdn1.frutapasion.es/wp-content/uploads/2019/11/mandarina-0.jpg","mandarina","mandarina 100$ natural", 120);
