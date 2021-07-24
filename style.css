@@ -33,8 +33,8 @@ body{
 
 .productos{
 
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .producto{
@@ -50,10 +50,9 @@ body{
 
     width: 100%;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     padding-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
+    
 }
 
 .imagen{
