@@ -23,7 +23,7 @@ class Producto{
 var producto1 = new Producto("https://www.suat.com.uy/upcms/thumbs/648x365/novedades/imagen/955_big.jpg","Banana", "banana ecuador", 60);
 var producto2 = new Producto("https://img.huffingtonpost.com/asset/5ef9ffab250000a502c28ec2.jpeg?ops=scalefit_720_noupscale&format=webp", "Manzana", "manzana deliciosa", 90);
 var producto3 = new Producto("https://static9.depositphotos.com/1642482/1148/i/600/depositphotos_11489464-stock-photo-pears.jpg", "Pera", "pera especial", 100);
-var producto4 = new Producto("https://cdn1.frutapasion.es/wp-content/uploads/2019/11/mandarina-0.jpg","mandarina","mandarina 100% natural", 120);
+var producto4 = new Producto("https://cdn1.frutapasion.es/wp-content/uploads/2019/11/mandarina-0.jpg","Mandarina","mandarina 100% natural", 120);
 var producto5 = new Producto("https://static1.abc.es/media/bienestar/2020/11/06/naranja-kOMF--620x349@abc.jpg", "Naranja","naranja para exprimido", 150);
 var producto6 = new Producto("https://www.gastronomiavasca.net/uploads/image/file/5702/berenjena1.jpg", "Berenjena","berenjena de temporada", 94);
 var producto7 = new Producto("https://i.blogs.es/f466ab/1366_2000-2-/1366_2000.jpg", "Apio","apio de huerta", 40);
