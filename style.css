@@ -3,10 +3,28 @@
     margin: 0px;
 }
 
+:root{
+    
+    --product-size: 300px;
+
+
+}
+ 
+@media screen {
+    
+}
+
+::-webkit-scrollbar-thumb{
+
+    background: linear-gradient(transparent, red);
+    
+}
+
+
 nav{
     font-size: 30px;
     width: 100%;
-    height: 110px;
+    height: 120px;
     background-color: rgb(202, 44, 17);
     size: 100%;
     text-align: center;
@@ -20,6 +38,8 @@ body{
 
 .logo-souto{
 
+    padding-top: 5px;
+    position: relative;
     height: 50px;
     width: 200px;
 }
@@ -79,4 +99,37 @@ body{
     font-size: 50px;
     color: rgb(233, 8, 0);
     text-align: center;
+}
+
+.div-sucursales{
+
+    background-color: rgb(202, 44, 17);
+    padding: 0px 0px 0px 0px;
+    height: 150px;
+    /*margin-left: 3%;
+    margin-right: 3%;*/
+}
+
+.titulo-sucursales{
+
+    padding-top: 10px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    
+}
+
+.lista-sucursales{
+
+    text-align: center;
+}
+
+.direccion-sucursal{
+
+    color: white;
+    font-size: 20px;
+    margin: 5px 10px 5px 10px;
+    display: inline-block;
+    margin-right: 20px;
 }
