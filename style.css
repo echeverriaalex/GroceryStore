@@ -3,37 +3,47 @@
     margin: 0px;
 }
 
+body{
+    
+    background-color: rgb(230, 230, 230);
+}
+
 :root{
     
     --product-size: 300px;
-
-
+    --margin-list: 2%;
+    --margin-product: 3%;
+    --width-product: 300px;
+    --height-nav: 150px;
+    --height-sucursales: 150px;
 }
  
-@media screen {
+@media (max-width: 720px) {
     
+    :root{
+    
+        --product-size: 300px;
+        --margin-list: 2%;
+        --margin-product: 5%;        
+        --width-product: 85%;
+        --height-nav: 150px;
+        --height-sucursales: 200px;
+    }
 }
 
 ::-webkit-scrollbar-thumb{
 
-    background: linear-gradient(transparent, red);
-    
+    background: linear-gradient(transparent, red);    
 }
-
 
 nav{
     font-size: 30px;
     width: 100%;
-    height: 120px;
+    height: var(--height-nav);
     background-color: rgb(202, 44, 17);
     size: 100%;
     text-align: center;
     color: white;
-}
-
-body{
-    
-    background-color: rgb(230, 230, 230);
 }
 
 .logo-souto{
@@ -62,7 +72,7 @@ body{
     margin: 10px 20px 10px 20px;
     border: 2px solid;
     display: inline-block;
-    width: 300px;
+    width: var(--width-product);
     height: 320px;
 }
 
@@ -105,7 +115,7 @@ body{
 
     background-color: rgb(202, 44, 17);
     padding: 0px 0px 0px 0px;
-    height: 150px;
+    height: var(--height-sucursales);
     /*margin-left: 3%;
     margin-right: 3%;*/
 }
