@@ -29,7 +29,7 @@ body{
         --width-product: 85%;
         --height-nav: 150px;
         --height-sucursales: 200px;
-        --title-size: 20px; 
+        --title-size: 25px; 
     }
 }
 
@@ -132,7 +132,7 @@ nav{
     padding-top: 10px;
     margin: 10px 0px 10px 0px;
     text-align: center;
-    font-size: 30px;
+    font-size: var(--title-size);
     color: white;
     
 }
