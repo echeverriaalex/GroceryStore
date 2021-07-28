@@ -16,6 +16,7 @@ body{
     --width-product: 300px;
     --height-nav: 150px;
     --height-sucursales: 150px;
+    --title-size: 35px; 
 }
  
 @media (max-width: 720px) {
@@ -28,12 +29,18 @@ body{
         --width-product: 85%;
         --height-nav: 150px;
         --height-sucursales: 200px;
+        --title-size: 20px; 
     }
 }
 
 ::-webkit-scrollbar-thumb{
 
     background: linear-gradient(transparent, red);    
+}
+
+h2{
+
+    font-size: var(--title-size);
 }
 
 nav{
