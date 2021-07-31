@@ -10,13 +10,13 @@ body{
 
 :root{
     
-    --product-size: 300px;
+    --height-nav: 150px;
     --margin-list: 2%;
     --margin-product: 3%;
+    --product-size: 300px;
     --width-product: 300px;
-    --height-nav: 150px;
+    --title-size: 35px;  
     --height-sucursales: 150px;
-    --title-size: 35px; 
 }
  
 @media (max-width: 720px) {
@@ -24,12 +24,12 @@ body{
     :root{
     
         --product-size: 300px;
-        --margin-list: 2%;
+        --margin-list: 5%;
         --margin-product: 5%;        
-        --width-product: 85%;
-        --height-nav: 150px;
+        --width-product: 300px;
+        --height-nav: 120px;
         --height-sucursales: 200px;
-        --title-size: 30px; 
+        --title-size: 50px; 
     }
 }
 
@@ -64,19 +64,22 @@ nav{
 #lista-productos{
 
     background-color: rgb(250, 250, 250);
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: var(--margin-list);
+    margin-right: var(--margin-list);
 }
 
 .productos{
 
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: var(--margin-product);
+    margin-right: var(--margin-product);
 }
 
 .producto{
 
-    margin: 10px 20px 10px 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
     border: 2px solid;
     display: inline-block;
     width: var(--width-product);
