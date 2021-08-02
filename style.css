@@ -14,9 +14,10 @@ body{
     --margin-list: 5%;
     --margin-product: 5%;
     --product-size: 350px;
-    --width-product: 300px;
+    --width-product: 270px;
     --title-size: 35px;  
     --height-sucursales: 150px;
+    --width-title-product: 300px;
 }
  
 @media (max-width: 720px) {
@@ -29,13 +30,27 @@ body{
         --width-product: 80%;
         --height-nav: 120px;
         --height-sucursales: 200px;
-        --title-size: 50px; 
+        --title-size: 50px;
+        --width-title-product: 80%;
     }
+}
+
+::-webkit-scrollbar{
+
+    width: 10px;  
+}
+
+::-webkit-scrollbar-track{
+
+    background: linear-gradient(transparent, white);    
+    border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb{
 
-    background: linear-gradient(transparent, red);    
+    /*background: linear-gradient(transparent, red);*/    
+    background: red;    
+    border-radius: 50px;
 }
 
 h2{
@@ -73,8 +88,8 @@ nav{
 .productos{
 
     width: 90%;
-    margin-left: var(--margin-product);
-    margin-right: var(--margin-product);
+    /*margin-left: var(--margin-product);
+    margin-right: var(--margin-product);*/
     margin: auto;   
 }
 
@@ -94,7 +109,7 @@ nav{
 .titulo{
 
     padding-top: 10px;
-    width: 100%;
+    width: var(--width-title-product);
     text-align: center;
     font-size: 35px;
     padding-bottom: 5px;
