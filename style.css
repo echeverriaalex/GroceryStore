@@ -11,10 +11,17 @@ body{
 :root{
     
     --height-nav: 150px;
-    --margin-list: 5%;
+
+    --margin-list: 5%;    
     --margin-product: 5%;
+
     --product-size: 350px;
     --width-product: 270px;
+    --margin-top-product: 15px;
+    --margin-right-product: 15px;
+    --margin-left-product: 15px;
+    --margin-buttom-product: 15px;
+
     --title-size: 35px;  
     --height-sucursales: 150px;
     --width-title-product: 300px;
@@ -32,6 +39,11 @@ body{
         --height-sucursales: 200px;
         --title-size: 50px;
         --width-title-product: 80%;
+
+        --margin-top-product: 0px;
+        --margin-right-product: 0px;
+        --margin-left-product: 0px;
+        --margin-buttom-product: 0px;
     }
 }
 
@@ -96,10 +108,8 @@ nav{
 .producto{
 
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin: 10px 15px 10px 15px;
-    
+    margin: var(--margin-top-product) var(--margin-top-product) var(--margin-top-product) var(--margin-top-product);
+     
     border: 2px solid;
     display: inline-block;
     width: var(--width-product);
@@ -110,8 +120,8 @@ nav{
 
     padding-top: 10px;
     width: var(--width-title-product);
-    text-align: center;
     font-size: 35px;
+    text-align: center;
     padding-bottom: 5px;
     
 }
