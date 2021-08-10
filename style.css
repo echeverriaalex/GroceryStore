@@ -10,7 +10,7 @@ body{
 
 :root{
     
-    --height-nav: 150px;
+    --height-nav: 100px;
 
     --margin-list: 5%;    
     --margin-product: 5%;
@@ -79,6 +79,7 @@ nav{
     size: 100%;
     text-align: center;
     color: white;
+    position: fixed;
 }
 
 .logo-souto{
