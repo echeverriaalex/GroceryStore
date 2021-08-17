@@ -3,11 +3,6 @@
     margin: 0px;
 }
 
-body{
-    
-    background-color: rgb(230, 230, 230);
-}
-
 :root{
     
     --height-nav: 100px;
@@ -22,8 +17,9 @@ body{
     --margin-left-product: 15px;
     --margin-buttom-product: 15px;
 
+    --title-size-sucursales: 20px;
     --title-size: 35px;  
-    --height-sucursales: 150px;
+    --height-sucursales: 100px;
     --width-title-product: 300px;
 }
  
@@ -35,9 +31,9 @@ body{
         --margin-list: 5%;
         --margin-product: 5%;        
         
-        --height-nav: 120px;
-        --height-sucursales: 250px;
-        --title-size: 50px;
+        --height-nav: 100px;
+        --height-sucursales: 75px;
+        --title-size: 35px;
         --width-title-product: 80%;
 
         --margin-top-product: 10px;
@@ -45,7 +41,14 @@ body{
         --margin-left-product: 0px;
         --margin-buttom-product: 10px;
         --width-product: 100%;
+
+        --title-size-sucursales: 20px;
     }
+}
+
+body{
+    
+    background-color: rgb(230, 230, 230);
 }
 
 ::-webkit-scrollbar{
@@ -167,7 +170,7 @@ nav{
     padding-top: 10px;
     margin: 10px 0px 10px 0px;
     text-align: center;
-    font-size: 25px;
+    font-size: var(--title-size-sucursales);
     color: white;
     
 }

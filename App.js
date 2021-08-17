@@ -138,8 +138,3 @@ productos.push(producto30);
     info += "</div>"
 
         div.innerHTML = info;
-
-
-
-
-
