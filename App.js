@@ -123,6 +123,9 @@ productos.push(producto30);
         productos.forEach( producto => divPadre.append(unDivConInfoDe(producto)));
 */
 
+        //ver file = new File("productos.js");
+        //file.
+
     info = "<div class='productos'>";
 
         for(var i = 0; i < productos.length; i++){

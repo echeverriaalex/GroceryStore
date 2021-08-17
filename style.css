@@ -33,7 +33,7 @@
         
         --height-nav: 100px;
         --height-sucursales: 75px;
-        --title-size: 35px;
+        --title-size: 30px;
         --width-title-product: 80%;
 
         --margin-top-product: 10px;
@@ -74,6 +74,10 @@ h2{
     font-size: var(--title-size);
 }
 
+.div-nav{
+    height: 150px;
+}
+
 nav{
     font-size: 30px;
     width: 100%;
@@ -82,7 +86,7 @@ nav{
     size: 100%;
     text-align: center;
     color: white;
-    position: fixed;
+    /*position: fixed;*/
 }
 
 .logo-souto{
@@ -119,6 +123,11 @@ nav{
     display: inline-block;
     width: var(--width-product);
     height: 320px;
+}
+
+.producto:hover{
+
+    transform: scale(1.1);
 }
 
 .titulo{
