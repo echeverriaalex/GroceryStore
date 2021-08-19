@@ -16,6 +16,8 @@
     --margin-right-product: 15px;
     --margin-left-product: 15px;
     --margin-buttom-product: 15px;
+    --scale: 1.1; 
+
 
     --title-size-sucursales: 20px;
     --title-size: 35px;  
@@ -41,6 +43,7 @@
         --margin-left-product: 0px;
         --margin-buttom-product: 10px;
         --width-product: 100%;
+        --scale: 1.1; 
 
         --title-size-sucursales: 20px;
     }
@@ -127,7 +130,7 @@ nav{
 
 .producto:hover{
 
-    transform: scale(1.1);
+    transform: scale(--scale);
 }
 
 .titulo{
