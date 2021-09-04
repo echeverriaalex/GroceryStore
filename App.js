@@ -85,6 +85,11 @@ productos.push(producto29);
 productos.push(producto30);
 
 
+
+   // var file = new File("productos.txt");
+    
+
+
  /*       
         const listaProductos = document.getElementById("lista-productos");
 

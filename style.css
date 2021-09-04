@@ -96,8 +96,8 @@ nav{
 
     padding-top: 5px;
     position: relative;
-    height: 50px;
-    width: 200px;
+    height: 80px;
+    width: 380px;
 }
 
 #lista-productos{
@@ -120,8 +120,10 @@ nav{
 .producto{
 
     margin: auto;
-    margin: var(--margin-top-product) var(--margin-top-product) var(--margin-top-product) var(--margin-top-product);
-     
+    /*margin: var(--margin-top-product) var(--margin-top-product) var(--margin-top-product) var(--margin-top-product);
+     */
+     margin-top: 10px;
+     margin-bottom: 10px;
     border: 2px solid;
     display: inline-block;
     width: var(--width-product);
