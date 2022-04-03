@@ -1,5 +1,19 @@
 /*import { Producto } from "./Models/Producto.js";*/
 
+/*
+let RegistrarBebidas = ()=>{
+
+    let descripcion = prompt("Ingrese descripcion del producto: ")
+    let precio = prompt("Ingrese precio del producto: ")
+    let stock = prompt("Ingrese stock del producto: ")
+
+
+    console.log(descripcion + " " + precio + " " + stock)
+};
+
+RegistrarBebidas();
+*/
+
 class Producto{
 
     constructor(URLimage, titulo, descripcion, precio){
@@ -27,11 +41,11 @@ var producto4 = new Producto("https://cdn1.frutapasion.es/wp-content/uploads/201
 var producto5 = new Producto("https://static1.abc.es/media/bienestar/2020/11/06/naranja-kOMF--620x349@abc.jpg", "Naranja","naranja para exprimido", 150);
 var producto6 = new Producto("https://www.gastronomiavasca.net/uploads/image/file/5702/berenjena1.jpg", "Berenjena","berenjena de temporada", 94);
 var producto7 = new Producto("https://i.blogs.es/f466ab/1366_2000-2-/1366_2000.jpg", "Apio","apio de huerta", 40);
-var producto8 = new Producto("https://tomatissimocr.com/wp-content/uploads/2014/11/tomate.jpg", "Tomate","tomate para ensalada", 250);
+//var producto8 = new Producto("https://tomatissimocr.com/wp-content/uploads/2014/11/tomate.jpg", "Tomate","tomate para ensalada", 250);
 var producto9 = new Producto("https://fundaciondelcorazon.com/images/stories/corazon-facil/impulso-vital/uvas.jpg", "Uva","uva especial", 300);
 var producto10 = new Producto("https://imagenes.t13.cl/images/original/2018/08/1535055213-frutillas-istock.jpg", "Frutilla","frutilla de campo", 350);
 var producto11 = new Producto("https://biomarket.com.ar/wp-content/uploads/2019/07/2001390010004.jpg", "Zapallo","zapallo calabaza", 100);
-var producto12 = new Producto("https://biotrendies.com/wp-content/uploads/2015/07/Sandia.jpg", "Sandia","sandia especial", 50);
+//var producto12 = new Producto("https://biotrendies.com/wp-content/uploads/2015/07/Sandia.jpg", "Sandia","sandia especial", 50);
 var producto13 = new Producto("https://soycomocomo.es/media/2019/03/zanahorias.jpg", "Zanahoria","zanahoria espacial para ensalada", 60);
 var producto14 = new Producto("https://static3.abc.es/media/salud/2019/05/17/brocoli-kOoH--620x349@abc.jpg", "Brocoli","brocoli de huerta", 45);
 var producto15 = new Producto("https://st.depositphotos.com/1020804/1561/i/450/depositphotos_15616789-stock-photo-parsley.jpg", "Peregil","peregil de huerta", 50);
@@ -49,7 +63,7 @@ var producto26 = new Producto("https://www.cucinare.tv/wp-content/uploads/2019/0
 var producto27 = new Producto("https://static1.abc.es/media/familia/2018/04/03/kiwi-kC0--620x349@abc.jpg", "Kiwi","kiwi especial", 120);
 var producto28 = new Producto("https://vivanda.vtexassets.com/arquivos/ids/224584/20171835.jpg?v=637417663435230000", "Papa","papa blanca", 80);
 var producto29 = new Producto("https://www.gob.mx/cms/uploads/article/main_image/45428/ajo.jpg","Ajo","ajo de oferta", 110);
-var producto30 = new Producto("https://blog-static.hola.com/farmaciameritxell/files/2016/12/remolacha.jpg", "Remolacha","remolacha de oferta", 70);
+//Svar producto30 = new Producto("https://blog-static.hola.com/farmaciameritxell/files/2016/12/remolacha.jpg", "Remolacha","remolacha de oferta", 70);
 
 var productos = [];
 
@@ -60,11 +74,11 @@ productos.push(producto4);
 productos.push(producto5);
 productos.push(producto6);
 productos.push(producto7);
-productos.push(producto8);
+//productos.push(producto8);
 productos.push(producto9);
 productos.push(producto10);
 productos.push(producto11);
-productos.push(producto12);
+//productos.push(producto12);
 productos.push(producto13);
 productos.push(producto14);
 productos.push(producto15);
@@ -82,9 +96,7 @@ productos.push(producto26);
 productos.push(producto27);
 productos.push(producto28);
 productos.push(producto29);
-productos.push(producto30);
-
-
+//productos.push(producto30);
 
    // var file = new File("productos.txt");
     
@@ -111,7 +123,7 @@ productos.push(producto30);
 
 */
 
-        var div = document.getElementById('lista-productos');
+        var divListaProductos = document.getElementById('lista-productos');
   /*       
         const unDivConInfoDe = producto => {
             const div = document.createElement('div');
@@ -127,22 +139,86 @@ productos.push(producto30);
         }
         productos.forEach( producto => divPadre.append(unDivConInfoDe(producto)));
 */
-
-        //ver file = new File("productos.js");
-        //file.
-
+    
+     // ESTO FUNCIONABA DE 10
+     /*
     info = "<div class='productos'>";
 
         for(var i = 0; i < productos.length; i++){
 
             info += "<article class='producto'>"
-            info += "<div class='titulo'> <h3>"+productos[i].titulo+"</h3> </div>";  
-            info += "<img class='imagen' src='"+productos[i].URLimage+"'>";
-            info += "<p class='descripcion'>"+productos[i].descripcion +"</p>";
-            info += "<h2 class='precio'> $ "+productos[i].precio+"</h2>";
+            info +=     "<div class='titulo'> <h3>"+productos[i].titulo+"</h3> </div>";  
+            info +=     "<img class='imagen' src='"+productos[i].URLimage+"'>";
+            info +=     "<p class='descripcion'>"+productos[i].descripcion +"</p>";
+            info +=     "<h2 class='precio'> $ "+productos[i].precio+"</h2>";
             info += "</article>";
         }
     
     info += "</div>"
 
         div.innerHTML = info;
+
+    */
+
+
+    /* USANDO DOM VOY CREANDO LOS ELEMNTOS QUE NECESITO Y LOS AGREGO AL BODY DE HTML*/
+    let divProductos = document.createElement('div');
+        divProductos.className = 'productos';
+        
+        divListaProductos.append(divProductos);
+
+        for(var i = 0; i < productos.length; i++){
+
+            let article = document.createElement('article');
+                article.className = 'producto';    
+            
+            let divTitulo = document.createElement('div');
+                divTitulo.className = 'titulo';
+
+            let h3titulo = document.createElement('h3');
+                h3titulo.innerHTML = `${productos[i].titulo}`;
+
+            let imagen = document.createElement('img');
+                imagen.className = 'imagen'
+                imagen.src = `${productos[i].URLimage}`;
+
+            let pDescripcion = document.createElement('p');
+                pDescripcion.className = 'descripcion';
+                pDescripcion.innerHTML = `${productos[i].descripcion}`;  
+
+            let h2Precio = document.createElement('h2');
+                h2Precio.className = 'precio';
+                h2Precio.innerHTML = `$ ${productos[i].precio}`;
+
+            /* 
+            let boton = document.createElement('button');
+                boton.textContent = 'boton';
+            */
+                divTitulo.appendChild(h3titulo);
+                article.append(divTitulo);
+                article.append(imagen);
+                article.append(pDescripcion);
+                article.append(h2Precio);
+                //article.append(boton);
+                divProductos.append(article);
+        }
+
+    /* 
+    window.onload = function(){
+
+        var contenedor = document.getElementsById('bienvenida');
+        var contenedorimagen = document.getElementsById('bienvenida');
+
+        contenedor.style.visibility = 'hidden';
+        contenedor.style.opacity = '0';
+
+        contenedorimagen.style.visibility = 'hidden';
+        contenedorimagen.style.opacity = '0';
+
+        document.getElementsById('bienvenida').style.display = 'none';
+    }
+
+    $(window).on("load", function(){
+        $(".bienvenida").fadeOut("slow");
+    });
+     */
