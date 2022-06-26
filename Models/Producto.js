@@ -6,6 +6,7 @@ export class Producto{
         this.titulo = titulo;
         this.descripcion = descripcion;
         this.precio = precio;
+        this. test;
     }
 
     setURLimage(URLimage){this.URLimage = URLimage;}
@@ -22,3 +23,4 @@ export class Producto{
 }
 
 //export default Producto;
+export { Producto };

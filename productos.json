@@ -1,0 +1,182 @@
+[
+    {
+        "Imagen": "https://www.suat.com.uy/upcms/thumbs/648x365/novedades/imagen/955_big.jpg",
+        "Titulo": "Banana",
+        "Descripcion": "banana ecuador",
+        "Precio": 60
+    },
+    {
+        "Imagen": "https://img.huffingtonpost.com/asset/5ef9ffab250000a502c28ec2.jpeg?ops=scalefit_720_noupscale&format=webp",
+        "Titulo": "Manzana",
+        "Descripcion": "manzana deliciosa",
+        "Precio": 90
+    },
+    {
+        "Imagen": "https://static9.depositphotos.com/1642482/1148/i/600/depositphotos_11489464-stock-photo-pears.jpg",
+        "Titulo": "Pera",
+        "Descripcion": "pera especial",
+        "Precio": 100
+    },
+    {
+        "Imagen": "https://cdn1.frutapasion.es/wp-content/uploads/2019/11/mandarina-0.jpg",
+        "Titulo": "Mandarina",
+        "Descripcion": "mandarina 100% natural",
+        "Precio": 120
+    },
+    {
+        "Imagen": "https://static1.abc.es/media/bienestar/2020/11/06/naranja-kOMF--620x349@abc.jpg",
+        "Titulo": "Naranja",
+        "Descripcion": "naranja para exprimido",
+        "Precio": 150
+    },
+    {
+        "Imagen": "https://www.gastronomiavasca.net/uploads/image/file/5702/berenjena1.jpg",
+        "Titulo": "Berenjena",
+        "Descripcion": "berenjena de temporada",
+        "Precio": 94
+    },
+    {
+        "Imagen": "https://i.blogs.es/f466ab/1366_2000-2-/1366_2000.jpg",
+        "Titulo": "Apio",
+        "Descripcion": "apio de huerta",
+        "Precio": 40
+    },
+    {
+        "Imagen": "https://tomatissimocr.com/wp-content/uploads/2014/11/tomate.jpg",
+        "Titulo": "Tomate",
+        "Descripcion": "tomate para ensalada",
+        "Precio": 250
+    },
+    {
+        "Imagen": "https://fundaciondelcorazon.com/images/stories/corazon-facil/impulso-vital/uvas.jpg",
+        "Titulo": "Uva",
+        "Descripcion": "uva especial",
+        "Precio": 300
+    },
+    {
+        "Imagen": "https://imagenes.t13.cl/images/original/2018/08/1535055213-frutillas-istock.jpg",
+        "Titulo": "Frutilla",
+        "Descripcion": "frutilla de campo",
+        "Precio": 350
+    },
+    {
+        "Imagen": "https://biomarket.com.ar/wp-content/uploads/2019/07/2001390010004.jpg",
+        "Titulo": "Zapallo",
+        "Descripcion": "zapallo calabaza",
+        "Precio": 100
+    },
+    {
+        "Imagen": "https://biotrendies.com/wp-content/uploads/2015/07/Sandia.jpg",
+        "Titulo": "Sandia",
+        "Descripcion": "sandia especial",
+        "Precio": 50
+    },
+    {
+        "Imagen": "https://soycomocomo.es/media/2019/03/zanahorias.jpg",
+        "Titulo": "Zanahoria",
+        "Descripcion": "zanahoria espacial para ensalada",
+        "Precio": 60
+    },
+    {
+        "Imagen": "https://static3.abc.es/media/salud/2019/05/17/brocoli-kOoH--620x349@abc.jpg",
+        "Titulo": "Brocoli",
+        "Descripcion": "brocoli de huerta",
+        "Precio": 45
+    },
+    {
+        "Imagen": "https://st.depositphotos.com/1020804/1561/i/450/depositphotos_15616789-stock-photo-parsley.jpg",
+        "Titulo": "Peregil",
+        "Descripcion": "peregil de huerta",
+        "Precio": 50
+    },
+    {
+        "Imagen": "https://geant.vteximg.com.br/arquivos/ids/252499-1000-1000/410024.jpg?v=637284323379870000",
+        "Titulo": "Cherry",
+        "Descripcion": "tomates cherry",
+        "Precio": 500
+    },
+    {
+        "Imagen": "https://static1.abc.es/media/bienestar/2020/09/01/lechuga-k7y--1200x630@abc.jpg",
+        "Titulo": "Lechuga",
+        "Descripcion": "legucha criolla",
+        "Precio": 70
+    },
+    {
+        "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS21OuzKJl3tjFNukpoKKbmkTO9iCNwd6WLg&usqp=CAU",
+        "Titulo": "Ciruela",
+        "Descripcion": "ciruela de estacion",
+        "Precio": 40
+    },
+    {
+        "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREMekNZrVqLzw-POqGIg7jWu_TYt4BTecjSw&usqp=CAU",
+        "Titulo": "Pomelo",
+        "Descripcion": "pomelo dulce",
+        "Precio": 80
+    },
+    {
+        "Imagen": "https://sc2.elpais.com.uy/files/article_default_content/uploads/2017/09/11/59b612d1476cf.jpeg",
+        "Titulo": "Limon",
+        "Descripcion": "limon especial",
+        "Precio": 90
+    },
+    {
+        "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8GS14uZuNVbgpuU9tFew8XhI4UOzPLsjLzA&usqp=CAU",
+        "Titulo": "Puerro",
+        "Descripcion": "puerro de huerta",
+        "Precio": 15
+    },
+    {
+        "Imagen": "http://frutosnaturales.com.ar/wp-content/uploads/2020/04/Espinaca-1.jpg",
+        "Titulo": "Espinaca",
+        "Descripcion": "espinaca natural",
+        "Precio": 80
+    },
+    {
+        "Imagen": "https://www.lavanguardia.com/files/article_main_microformat/uploads/2018/07/13/5e99856f0b685.jpeg",
+        "Titulo": "Cebolla",
+        "Descripcion": "cebolla de calidad",
+        "Precio": 120
+    },
+    {
+        "Imagen": "https://www.laprensagrafica.com/__export/1508186157976/sites/prensagrafica/img/2017/10/16/pepinos_2.jpg_1902800913.jpg",
+        "Titulo": "Pepino",
+        "Descripcion": "pepino de oferta",
+        "Precio": 100
+    },
+    {
+        "Imagen": "https://www.clikisalud.net/wp-content/uploads/2020/03/maneras-consumo-mango-protege-salud.jpg",
+        "Titulo": "Mango",
+        "Descripcion": "mango natural",
+        "Precio": 140
+    },
+    {
+        "Imagen": "https://www.cucinare.tv/wp-content/uploads/2019/04/Batata.jpg",
+        "Titulo": "Batata",
+        "Descripcion": "batata de estacion",
+        "Precio": 90
+    },
+    {
+        "Imagen": "https://static1.abc.es/media/familia/2018/04/03/kiwi-kC0--620x349@abc.jpg",
+        "Titulo": "Kiwi",
+        "Descripcion": "kiwi especial",
+        "Precio": 120
+    },
+    {
+        "Imagen": "https://vivanda.vtexassets.com/arquivos/ids/224584/20171835.jpg?v=637417663435230000",
+        "Titulo": "Papa",
+        "Descripcion": "papa blanca",
+        "Precio": 80
+    },
+    {
+        "Imagen": "https://www.gob.mx/cms/uploads/article/main_image/45428/ajo.jpg",
+        "Titulo": "Ajo",
+        "Descripcion": "ajo de oferta",
+        "Precio": 110
+    },
+    {
+        "Imagen": "https://blog-static.hola.com/farmaciameritxell/files/2016/12/remolacha.jpg",
+        "Titulo": "Remolacha",
+        "Descripcion": "remolacha de oferta",
+        "Precio": 70
+    }
+]

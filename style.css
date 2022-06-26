@@ -34,7 +34,7 @@
     --width-title-product: 300px;
 }
  
-@media (max-width: 720px) {
+@media (max-width: 100%) {
     
     :root{
     
@@ -243,8 +243,7 @@ nav{
     text-align: center;
     padding-top: 10px;
     width: var(--width-title-product);
-    font-size: 35px;
-    
+    font-size: 35px;    
     padding-bottom: 5px;
     
 }
@@ -307,7 +306,6 @@ nav{
     margin-right: 20px;
 }
 
-/*
 button{
 
     width: 90%;
@@ -318,4 +316,3 @@ button{
     margin-right: 5%;
     cursor: pointer;
 }
-*/
